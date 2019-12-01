@@ -60,7 +60,7 @@ This is when I ran into KubeVirt. I quickly realized that we had all the access 
 
 ### Step 1: Find yourself a Kubernetes platform
 
-While this scenario was originally run on an Openshift cluster, this will work on any Kubernetes platform. To keep things simple, I'll be use [KinD](https://github.com/kubernetes-sigs/kind). The only thing you need to get this running is to grab the KinD release from Github and to have Docker running on your machine. For the purposes of this article, we'll be using KinD version [v0.6.0](https://github.com/kubernetes-sigs/kind/releases/tag/v0.6.0).
+While this scenario was originally run on an Openshift cluster, this will work on any Kubernetes platform. To keep things simple, I'll use [KinD](https://github.com/kubernetes-sigs/kind). The only thing you need to get this running is to grab the KinD release from Github and to have Docker running on your machine. For the purposes of this article, we'll be using KinD version [v0.6.0](https://github.com/kubernetes-sigs/kind/releases/tag/v0.6.0).
 
 Once we've pulled down the binary, we'll need to ensure that it's somewhere in our path. We also need to define what our cluster is going to look like. Let's create a directory called `kv-demo` and then create the following file called `cluster.yml`.
 
