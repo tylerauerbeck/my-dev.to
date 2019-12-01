@@ -324,7 +324,7 @@ Once this file has been created, add the following content:
       become: true
 ```
 
-Once this is ready, we can go ahead and run our playbook, which creates a user named `James` on the VM that we had created. We can confirm this by remote accessing the host via SSH and checking that the user James exists.
+Once this is ready, we can go ahead and run our playbook, which creates a user named `James` on the VM that we had created. We can confirm this by accessing the host via SSH and checking that the user James exists.
 
 ```
 bash-4.4$ ssh fedora@10.244.1.14 "id james"
