@@ -23,7 +23,7 @@ The last benefit that comes to mind are the things that a container platform pro
 
 These details are all fine and dandy, but for me it's always useful to see these tools in action before I tend to grasp some of these concepts. So I'm going to walk through the scenario that had me looking at KubeVirt in the first place. It all started with not having the permissions that I needed...
 
-![This is fine](https://cdn.vox-cdn.com/thumbor/2q97YCXcLOlkoR2jKKEMQ-wkG9k=/0x0:900x500/1200x800/filters:focal(378x178:522x322)/cdn.vox-cdn.com/uploads/chorus_image/image/49493993/this-is-fine.0.jpg)
+![Jake the Dog Screaming](https://i.kym-cdn.com/entries/icons/facebook/000/027/880/jake.jpg)
 
 I was working with a customer and we quickly realized that we needed to catch them up to speed quickly if we were going to be able to be useful to them in the small amount of time that we had scheduled together. This meant that I needed to introduce the tools, make sure they were able to work with them (re: install and use them) and then make sure that they would be in good shape once we left. We do this a lot, so helping folks get up to speed didn't concern me at all. However the next piece of information I was given **haunts** me anytime I hear it.
 
