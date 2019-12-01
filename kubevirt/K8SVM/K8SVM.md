@@ -72,7 +72,7 @@ nodes:
 - role: worker
 ```
 
-What this will give us is a 1 master & 1 worker cluster to start working with. All we need to do is deploy this and we'll be ready to get started. You can do this with the following command: `kind create cluster --config cluster.yml --name kv-demo`. After running this command you'll see output similar to the one below:
+What this will give us is a 1 master and 1 worker cluster to start working with. All we need to do now is deploy this and we'll be ready to get started. You can do this with the following command: `kind create cluster --config cluster.yml --name kv-demo`. After running this command you'll see output similar to the one below:
 
 ```
 Creating cluster "kv-demo" ...
