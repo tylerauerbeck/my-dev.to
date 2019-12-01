@@ -266,7 +266,7 @@ Now that we have the IP address for where we need to connect, let's make sure th
 
 ##### Retrieve Private Key and Test Connectivity
 
-We need use `curl` to download our private key from the repository noted above (if you chose to use the example-provided public key). We could get fancier and  mount the key in as part of our deployment, but the point here was to keep things as simple as possible to start.
+We need to use `curl` in order to download our private key from the repository noted above (if you chose to use the example-provided public key). We could get fancier and  mount the key in as part of our deployment, but the point here was to keep things as simple as possible to start.
 
 To get our key into the right space with the right permissions, run the following:
 
