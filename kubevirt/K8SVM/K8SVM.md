@@ -195,7 +195,7 @@ As long as this all checks out, we've got a functional workspace. Now we're read
 
 ### Step 4: Now for some Virtual Machines
 
-As part of our KubeVirt deployment, we created a handful of CRD's. One of those was called `virtualmachineinstances`. As you may guess, this is one way we have of creating a VM. There are additional methods, but this is the approach we'll take as part of this example. We'll focus on just deploying a single VM for brevity. You can template to your liking (or just modified and run multiple times) in order to create multiple VM's. In order to create our single instance, you can run the following:
+As part of our KubeVirt deployment, we created a handful of CRD's. One of those was called `virtualmachineinstances`. As you may guess, this is one way we have of creating a VM. There are additional methods, but this is the approach we'll take as part of this example. We'll focus on just deploying a single VM for brevity. However, you can customize this into a template to fit your requirements (or even just modify and run multiple times) in order to create multiple VM's. In order to create our single instance, you can run the following:
 
 ```
 kubectl create -f https://raw.githubusercontent.com/tylerauerbeck/my-dev.to/master/kubevirt/K8SVM/files/vmi.yml -n user-ns`
