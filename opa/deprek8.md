@@ -88,7 +88,7 @@ jobs:
           args: some args that I might pass to someaction
 ```
 
-As you can see, we have a workflow that has multiple steps, can be triggered by a specific GitHub event and can be passed a set of parameters if that is applicable to that specific action. The above example is _extremly basic_. But luckily for us, the workflow we're trying to put together is equally as simple. This shouldn't be taken as a comprehensive example of a GitHub action as there are many more complicated (and elegant) things you can do.  If you're interested in learning more about GitHub Actions, you can take a look at the documention here[linky linky].
+As you can see, we have a workflow that has multiple steps, can be triggered by a specific GitHub event and can be passed a set of parameters if that is applicable to that specific action. The above example is _extremly basic_. But luckily for us, the workflow we're trying to put together is equally as simple. This shouldn't be taken as a comprehensive example of a GitHub action as there are many more complicated (and elegant) things you can do.  If you're interested in learning more about GitHub Actions, you can take a look at the documention <a target="_blank" href="https://help.github.com/en/actions">here</a>.
 
 As for our example, we now have an idea of what a workflow looks like and we know what actions we're interested in using. So let's take a run at plugging the two together now. If we remember our use case, we want to make sure that anytime our code is updated that we check to make sure that we're not using any deprecated APIs. So let's first rig up our workflow with some names and the events that we want to trigger off of.
 
